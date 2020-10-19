@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+}
+
+canvas {
+  margin-top: 24px;
+  height: 324px;
+  border: 1px solid;
+  image-rendering: pixelated;
+}
