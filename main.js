@@ -17,6 +17,10 @@ window.addEventListener("load", () => {
   const name = window.location.hash.substring(1);
   const url = `roms/${getRom(name)}.gb`;
   playFromUrl(url, document.getElementById("lcd"));
+
+  const dl = document.getElementById('download');
+  dl.href = url;
+  dl.innerHTML = url.substring(5);
 });
 
 window.addEventListener("hashchange", () => {
