@@ -6,8 +6,8 @@ const getRom = name => {
       return "simon";
     case "aces":
       return "aces-up";
-    case "bday":
-      return "happy-birthday";
+    case "maze":
+      return "maze";
     default:
       return "hello";
   }
